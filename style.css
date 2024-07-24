@@ -114,7 +114,7 @@ input[type="text"] {
     border-radius: 5px;
     font-size: 20px;
     width: 80%;
-    text-align: center;
+    text-align: left;
     font-family: "Raleway", sans-serif;
 }
 input[type="submit"]{
