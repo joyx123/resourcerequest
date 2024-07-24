@@ -14,6 +14,7 @@ h2 {
     margin-left:20px;
     margin-top:-30px;
     font-size: 20px;
+    letter-spacing: 1px;
     font-family: "Raleway", sans-serif;
 }
 
@@ -40,6 +41,17 @@ h2 {
     padding:20px;
     padding-bottom:40px;
     width:57%;
+}
+
+#div2 {
+    background-color: white;
+    border-radius: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    padding:20px;
+    padding-bottom:150px;
+    width:57%;
+
 }
 
 .footer1 {
@@ -101,35 +113,56 @@ input[type="text"] {
     margin: 10px;
     border-radius: 5px;
     font-size: 20px;
-    width: 30%;
-    font-family: 'Sulphur Point', sans-serif;
+    width: 80%;
+    text-align: center;
+    font-family: "Raleway", sans-serif;
 }
 input[type="submit"]{
-    padding: 10px;
+    padding: 20px;
     margin: 10px;
-    border-radius: 10px;
+    margin-top:50px;
+    border: none;
     text-align: center;
-    font-size: 20px;
-    background: RGB(184, 0, 0);
-    color: black;
-    border: solid;
-    font-family: 'Sulphur Point', sans-serif;
+    background: #ffb347;
+    color: white;
+    font-size: 25px;
+    font-family: "Raleway", sans-serif;
+    margin-left: 80%;
+    border-radius: 10px;
 }
 #Title{
     font-size: 25px;
     margin: 10px;
-    font-family: 'Sulphur Point', sans-serif;
+    margin-left: 80px;
+    font-family: "Raleway", sans-serif;
 }
 input [type="radio"]{
     font-size: 20px;
     padding: 10px;
     margin: 10px;
-    font-family: 'Sulphur Point', sans-serif;
+    font-family: "Raleway", sans-serif;
 }
 #Checkboxes{
     font-size: 20px;
     margin: 10px;
-    font-family: 'Sulphur Point', sans-serif;
+    font-family: "Raleway", sans-serif;
+}
+
+.input-text-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+
+#Checkkin{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: "Raleway", sans-serif;
 }
 
 /* adds roundness to boxes 
