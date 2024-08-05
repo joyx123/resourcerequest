@@ -14,8 +14,6 @@
         <p>Allied Fire Protection</p>
     -->
     </div>
-
-    <p>
 </head>
 <br>
 <br>
@@ -25,7 +23,7 @@
         <form action="https://api.web3forms.com/submit" method="POST">
             <br>
             <!--Move final key to another document that wont sit on github (kind of a security risk)-->
-            <input type="hidden" name="access_key" value="bbf36622-3772-4b60-a792-384b83d32d90">
+            <input id="output" type="hidden" name="access_key" value="">
             <label for="First Name" id="Title">First name:</label><br>
             <div class="input-text-container">
                 <input name="First Name" type="text"><br>
@@ -71,6 +69,10 @@
         <p id="footerText">&copy; 2024 ALLIED FIRE PROTECTION</p>
         <br>
     </div>
+    <script>
+        api = apikey();
+        document.getElementById("output").value = api; 
+    </script>
 </body>
 
 </html>
